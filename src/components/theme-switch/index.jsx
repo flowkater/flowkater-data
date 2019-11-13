@@ -7,7 +7,7 @@ import { THEME } from '../../constants'
 import './index.scss'
 
 function getTheme(checked) {
-  return checked ? THEME.DARK : THEME.LIGHT
+  return checked ? THEME.LIGHT : THEME.DARK
 }
 
 function toggleTheme(theme) {
@@ -36,14 +36,14 @@ export const ThemeSwitch = () => {
   }
 
   useEffect(() => {
-    const checked = Dom.hasClassOfBody(THEME.DARK)
+    const checked = Dom.hasClassOfBody(THEME.LIGHT)
 
     handleChange(checked)
   }, [])
 
   return (
     <div className="switch-container">
-      <label htmlFor="normal-switch">
+      {/* <label htmlFor="normal-switch">
         <Switch
           onChange={handleChange}
           checked={checked}
@@ -57,7 +57,7 @@ export const ThemeSwitch = () => {
           onColor={'#999'}
           onHandleColor={'#282c35'}
         />
-      </label>
+      </label> */}
     </div>
   )
 }

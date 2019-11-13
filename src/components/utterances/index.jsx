@@ -14,6 +14,7 @@ export const Utterences = ({ repo }) => {
       branch,
       async: true,
       'issue-term': 'pathname',
+      theme: 'github-dark',
       crossorigin: 'anonymous',
     }
 
