@@ -1,14 +1,14 @@
 module.exports = {
-  title: `Bee starter`,
+  title: `flowkater's data;`,
   description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  author: `Jaewoo Cho (flowkater)`,
+  introduction: `작은 스타트업 합니다. 항상 생존이 우선이지만 그래도 하고 싶은거 하는 기획자 겸 초보 개발자입니다. 아참, 데이터 과학 강의도 합니다.`,
   siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `http://github.com/flowkater`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
+    facebook: `https://www.facebook.com/flowkater`, // Your Facebook account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],

@@ -4,10 +4,10 @@ date: 2019-1-27 16:21:13
 lang: 'en'
 ---
 
-# Your name
+# flowkater
 
 <div align="center">
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+_작은 스타트업을 운영합니다. 항상 생존이 최우선인 삶을 살지만 하고 싶은거 하고 삽니다._
 
 </div>
